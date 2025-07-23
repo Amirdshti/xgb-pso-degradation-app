@@ -16,7 +16,8 @@ model = joblib.load("XGBPSOModel.pkl")
 st.set_page_config(page_title="Photocatalytic Degradation Predictor", layout="wide")
 
 # Title and description
-st.title("🧪 XGB-PSO Model for Photocatalytic Degradation (%) of Pollutants by ZnO")
+st.title("🧪 XGB-PSO Model for the Prediction of Degradation (%) of Pollutants by ZnO Photocatalysts")
+
 st.markdown("""
 This tool predicts the degradation efficiency of a pollutant by ZnO photocatlyst based on input parameters  
 using an **XGBoost model optimized with Particle Swarm Optimization (PSO)**.
