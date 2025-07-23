@@ -19,8 +19,7 @@ st.set_page_config(page_title="Photocatalytic Degradation Predictor", layout="wi
 st.title("🧪 XGB-PSO Model for the Prediction of Degradation (%) of Pollutants by ZnO Photocatalysts")
 
 st.markdown("""
-This tool predicts the degradation efficiency of a pollutant by ZnO photocatlyst based on input parameters  
-using an **XGBoost model optimized with Particle Swarm Optimization (PSO)**.
+This web application estimates the degradation (%) of pollutants by ZnO-based photocatalysts, using input parameters and an XGBoost model optimized via Particle Swarm Optimization (PSO).
 """)
 
 # Input features with labels
